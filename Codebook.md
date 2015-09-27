@@ -69,3 +69,11 @@ R script called run_analysis.R that does the following:
 ###### 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
+###### The code uses library(plyr) 
+###### The Activities are:  WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
+##### Etraction and Transformation
+###### The Extraction of the data consist of downloading from URL and assigning a filepath for the file datasets
+###### Measurements were extracted for mean, standard deviation for each measurement
+###### The variable/variable column names were re-labeled
+###### Output is a file called tidy_data.txt
